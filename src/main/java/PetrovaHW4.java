@@ -30,7 +30,7 @@ public class PetrovaHW4 {
 
             System.out.println("Result: " + result);
 
-            System.out.println("fgh");
+            System.out.println("fghjlkh");
         }
     }
 
