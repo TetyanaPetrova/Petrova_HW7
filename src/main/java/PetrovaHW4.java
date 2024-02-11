@@ -29,6 +29,8 @@ public class PetrovaHW4 {
             Integer result = calculate(list);
 
             System.out.println("Result: " + result);
+
+            System.out.println("fgh");
         }
     }
 
