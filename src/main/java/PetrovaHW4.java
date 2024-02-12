@@ -23,12 +23,16 @@ public class PetrovaHW4 {
         ) {
 
             System.out.println("Result: null");
-            ;
+
 
         } else {
             Integer result = calculate(list);
 
             System.out.println("Result: " + result);
+
+            System.out.println(prepareResults(list, result));
+
+
         }
     }
 
@@ -64,6 +68,11 @@ public class PetrovaHW4 {
             }
             return c;
         }
+    }
+
+    public static String prepareResults(List<String> inputData, Integer result) {
+
+        return inputData.get(0) + " " + PetrovaHW4enum.valueOf(inputData.get(1)).getMathSing() + " " + inputData.get(2) + " = " + result;
     }
 
 }
